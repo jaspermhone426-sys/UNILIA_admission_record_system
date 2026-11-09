@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Academic Details | UNILIA Admission Records Management System</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="site-header">
+    <section class="header-inner">
+        <a class="brand" href="index.html">
+            <span class="brand-mark" aria-hidden="true">U</span>
+            <span>
+                <h1>UNILIA</h1>
+                <p>Admission Records System</p>
+            </span>
+        </a>
+        <nav class="main-nav" aria-label="Main navigation">
+            <a href="index.html">Home</a>
+            <a href="application-personal.html">Apply</a>
+            <a href="status.html">Check Status</a>
+            <a href="applicant-dashboard.html">Dashboard</a>
+            <a href="login.html">Login</a>
+        </nav>
+    </section>
+</header>
+
+<main class="container">
+    <header class="page-heading">
+        <h2>Application Form</h2>
+        <p>Step 2 of 4: Academic background and programme selection</p>
+    </header>
+    <ol class="progress-list">
+        <li class="complete">1. Personal details</li>
+        <li class="active">2. Academic details</li>
+        <li>3. Documents</li>
+        <li>4. Complete</li>
+    </ol>
+    <form>
+        <section class="form-card">
+            <h3>Previous education</h3>
+            <section class="form-grid">
+                <p class="form-field">
+                    <label for="school">Name of secondary school</label>
+                    <input id="school" name="school" type="text" placeholder="Enter school name">
+                </p>
+                <p class="form-field">
+                    <label for="exam-year">Year completed</label>
+                    <input id="exam-year" name="exam-year" type="number" min="1980" max="2035" placeholder="e.g. 2025">
+                </p>
+                <p class="form-field">
+                    <label for="qualification">Qualification</label>
+                    <select id="qualification" name="qualification">
+                        <option value="">Select qualification</option>
+                        <option>Malawi School Certificate of Education (MSCE)</option>
+                        <option>IGCSE</option>
+                        <option>Other</option>
+                    </select>
+                </p>
+                <p class="form-field">
+                    <label for="candidate-number">Examination candidate number</label>
+                    <input id="candidate-number" name="candidate-number" type="text">
+                </p>
+            </section>
+        </section>
+        <section class="form-card">
+            <h3>Programme selection</h3>
+            <section class="form-grid">
+                <p class="form-field">
+                    <label for="programme">Programme of study</label>
+                    <select id="programme" name="programme" required>
+                        <option value="">Select programme</option>
+                        <option>Bachelor of Science in Computer Engineering</option>
+                        <option>Bachelor of Science in Information Technology</option>
+                        <option>Bachelor of Education science</option>
+                        <option>bachelor of education in humanities</option>
+                        <option>food nutrition and security</option>
+                        <option>bachelor in public healthy</option>
+                       <option>applied sciences</option>
+                    </select>
+                </p>
+                <p class="form-field">
+                    <label for="intake">Intake</label>
+                    <select id="intake" name="intake">
+                        <option value="">Select intake</option>
+                        <option>January Intake</option>
+                        <option>June Intake</option>
+                        <option>September Intake</option>
+                    </select>
+                </p>
+                <p class="form-field full">
+                    <label for="study-mode">Mode of study</label>
+                    <select id="study-mode" name="study-mode">
+                        <option>Full-time</option>
+                        <option>Part-time</option>
+                        <option>Distance learning</option>
+                        <option>weekend</option>
+                    </select>
+                </p>
+            </section>
+        </section>
+        <section class="button-row">
+            <a class="button-link secondary" href="application-personal.html">Previous</a>
+            <a class="button-link" href="application-documents.html">Save and continue</a>
+        </section>
+    </form>
+</main>
+
+<footer class="site-footer">
+    <p>UNILIA Admission Record Management System</p>
+   
+</body>
+</html>

@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Application Status | UNILIA Admission Record Management System</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="site-header">
+    <section class="header-inner">
+        <a class="brand" href="index.html">
+            <span class="brand-mark" aria-hidden="true">U</span>
+            <span>
+                <h1>UNILIA</h1>
+                <p>Admission Records System</p>
+            </span>
+        </a>
+        <nav class="main-nav" aria-label="Main navigation">
+            <a href="index.html">Home</a>
+            <a href="application-personal.html">Apply</a>
+            <a href="status.html">Check Status</a>
+            <a href="applicant-dashboard.html">Dashboard</a>
+            <a href="login.html">Login</a>
+        </nav>
+    </section>
+</header>
+
+<main class="container">
+    <header class="page-heading">
+        <h2>Check Application Status</h2>
+        <p>Use your application reference to view the sample status record.</p>
+    </header>
+    <section class="form-card">
+        <form>
+            <section class="form-grid">
+                <p class="form-field">
+                    <label for="reference">Application reference number</label>
+                    <input id="reference" name="reference" type="text" placeholder="e.g. UNILIA-2026-00125">
+                </p>
+                <p class="form-field">
+                    <label for="applicant-email">Applicant email address</label>
+                    <input id="applicant-email" name="applicant-email" type="email" placeholder="Enter email address">
+                </p>
+            </section>
+          
+            <button type="button">Check status (demo)</button>
+        </form>
+    </section>
+    <section class="form-card">
+        <h3>Sample application record</h3>
+        <table class="data-table">
+            <tbody>
+                <tr>
+                    <th>Reference number</th>
+                    <td>UNILIA-2026-00125</td>
+                </tr>
+                <tr>
+                    <th>Applicant</th>
+                    <td>Sample Applicant</td>
+                </tr>
+                <tr>
+                    <th>Programme</th>
+                    <td>BSc Computer Engineering</td>
+                </tr>
+                <tr>
+                    <th>Application status</th>
+                    <td><span class="status review">Under review</span></td>
+                </tr>
+                <tr>
+                    <th>Last updated</th>
+                    <td>9 November 2026</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+</main>
+
+<footer class="site-footer">
+    <p>UNILIA Admission Records System</p>
+   
+</body>
+</html>

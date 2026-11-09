@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Applicant Login | UNILIA Admission Record Management System</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="site-header">
+    <section class="header-inner">
+        <a class="brand" href="index.html">
+            <span class="brand-mark" aria-hidden="true">U</span>
+            <span>
+                <h1>UNILIA</h1>
+                <p>Admission Records System</p>
+            </span>
+        </a>
+        <nav class="main-nav" aria-label="Main navigation">
+            <a href="index.html">Home</a>
+            <a href="application-personal.html">Apply</a>
+            <a href="status.html">Check Status</a>
+            <a href="applicant-dashboard.html">Dashboard</a>
+            <a href="login.html">Login</a>
+        </nav>
+    </section>
+</header>
+
+<main class="container">
+    <section class="form-card">
+        <header class="page-heading">
+            <h2>Applicant Login</h2>
+            <p>Sign in to view your admission record and application updates.</p>
+        </header>
+        <form>
+            <section class="form-grid">
+                <p class="form-field full">
+                    <label for="login-email">Email address</label>
+                    <input id="login-email" name="email" type="email" placeholder="Enter your registered email">
+                </p>
+                <p class="form-field full">
+                    <label for="password">Password</label>
+                    <input id="password" name="password" type="password" placeholder="Enter password">
+                </p>
+            </section>
+            <section class="button-row">
+                <button type="button">Login (demo)</button>
+                <a href="status.html">Check status without logging in</a>
+            </section>
+        </form>
+        <aside class="notice">
+            This page does not authenticate users. A real login requires secure server-side authentication and password handling.
+        </aside>
+    </section>
+</main>
+
+<footer class="site-footer">
+    <p>UNILIA Admission Records System</p>
+    <p>Interface prototype for academic demonstration. Not an official university service.</p>
+</footer>
+</body>
+</html>
